@@ -1,0 +1,19 @@
+{
+  "name": "Remote",
+  "description": "remote",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/images/icon-512.png",
+    "128": "/images/icon-128.png"
+  },
+  "developer": {
+    "name": "Jonathan Kingston",
+    "url": "https://jonathankingston.co.uk"
+  },
+  "type": "privileged",
+  "default_locale": "en",
+  "permissions": {
+      "systemXHR":{}
+  },
+  "chrome": { "navigation": true }
+}
